@@ -13,7 +13,7 @@ export const backendConfigured = BACKEND_URL.length > 0;
 /**
  * Set to true once the Firebase project for MediGuide exists and the
  * values in lib/firebase.ts / lib/firebase.native.ts are the real web
- * config. Until then the accounts code runs in local/guest mode and all
- * Firestore sync is skipped (the app never crashes on a missing project).
+ * config. Project mediguide-b2332 was created 2026-11-15 with
+ * Email/Password + Google enabled — full accounts mode is on.
  */
-export const firebaseConfigured = false;
+export const firebaseConfigured = true;
